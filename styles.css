@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    display: block;
+   
+}
+
+main {
+    display: block;
+    margin: 30px 200px;
+    background-image: url(/baseballBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;    
+}
+
+h1, .title {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 4rem;
+}
+
+.title-container {
+  padding-top: 50px;;
+} 
+
+.title {
+    margin-top: 25px;
+    padding-top: 50px;
+}
+
+.img-container > figcaption {
+ padding-top: 20px;
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 1.4rem;
+}
+
+.img-container {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+.image-selector { 
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%; 
+}
+
+#image {
+ height: auto !important;
+ display: block;
+ max-width: 100%; 
+ text-align: center;   
+}
+.caption {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.bio {
+    text-align: left;
+    margin: 2   0px 40px;
+}
+
+.bio-container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+label, .things-to-know {
+ font-size: 2rem;
+ font-weight: bold;
+ text-align: left; 
+}
+
+label {
+ margin-top: 30px;
+}
+
+.things-to-know {
+ margin-top: 50px;
+ margin-bottom: 30px;
+}
+
+ul > .things-to-know-list {
+ text-align: left;
+ font-size: 1.5rem;
+ font-weight: bold;
+ list-style-type: none;
+}
+
+p {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ font-size: 1.3rem;
+ font-weight: normal;
+ line-height: 25px;
+    
+}
+
+footer {
+ text-align: center;
+ margin: 40px 200px 75px 200px;
+ padding-bottom: 300px;
+}
+
+@media screen and (max-width: 1400px) {
+  .bio-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+ text-align: center;
+ margin: 30px 50px 30px 50px;
+ padding-bottom: 100px;
+}
+}
