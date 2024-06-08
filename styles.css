@@ -17,7 +17,7 @@ body {
 main {
     display: block;
     margin: 30px 200px;
-    background-image: url(images/baseballBackground.png);
+    background-image: url(/images/baseballBackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;    
